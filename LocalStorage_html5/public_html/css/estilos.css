@@ -1,0 +1,10 @@
+
+/*estilo para indicar la zona donde se devben arrastrar los archivos*/
+#zona_arrastrar
+{
+    width: 300px;
+    height: 200px;
+    color: gray;
+    border: 5px dashed gray;
+        
+}

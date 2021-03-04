@@ -1,0 +1,9 @@
+CACHE MANIFEST
+
+CACHE:
+index.html
+js/code.js
+images/offline.jpg
+
+FALLBACK:
+images/online.jpg images/offline.jpg.jpg
