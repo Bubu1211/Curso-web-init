@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Archivos</title>
+        <meta charset="UTF-8">
+        <link rel="shortcut icon" href="#">
+        <link rel="stylesheet" href="css/estilos.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+        <script src="js/code.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <div>
+            <h1>Selección de un archivo</h1>
+            <form>
+                <label for="archivo">Selecciona un archivo</label>
+                <input type="file" name="archivo" id="archivo"/>
+            </form>
+        </div>
+        <div>
+            <h1>Selección de varios archivos</h1>
+            
+            <form>
+                <label for="archivos">Selecciona los archivos</label>
+                <input type="file" name="archivos" id="archivos" multiple=""/>
+                <div id="salida_archivos"></div>
+            </form>
+            
+        </div>
+        <div>
+            <h1>Selección de varios archivos con Drag and Drop</h1>
+            <p>Arrastra tus archivos aquí</p>
+            <div id="zona_arrastrar"></div>
+            <p>Resultado: </p>
+            <div id="salida_dd"></div>
+        </div>
+    </body>
+</html>
